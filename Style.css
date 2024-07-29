@@ -30,9 +30,6 @@
     margin-top: 16px;
     gap: 20px;
 }
-.stats{
-
-}
 .card-img{
     border-radius: 50%;
     height: 100px;
@@ -72,3 +69,46 @@ justify-content: center;
     gap: 10px;
     align-items: center;
  }
+ .line1{
+    display:flex;
+ }
+ .line2{
+    display: flex;
+    align-items: center;
+ }
+ .line3{
+    display: flex;
+ }
+ .line4{
+    display: flex;
+ }
+.sqaure{
+    width:200px;
+    border: 1px solid gray;
+    margin-top: 60px;
+    border-radius: 16px;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+}
+.dev{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+}
+.bottom{
+    display: flex;
+    gap:20px;
+}
+.pixel{
+    border-radius: 50%;
+    height:30%;
+}
+.cross{
+    position:absolute;
+    top:20px;
+    right: 20px;
+    height: 30px;
+}
