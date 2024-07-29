@@ -10,7 +10,6 @@
     align-items: center;
     height: 54px;
     padding: 0 200px;
-    position: sticky;
 }
 .logo{
     color: black;
@@ -19,13 +18,12 @@
     width: 700px;
     margin: 80px auto;
     display: flex;
-    position: relative;
 }
 .img{
     height: 250px;
 }
 .Google{
-    display: flex;
+    display: flex ;
 }
 .followers{
     display: flex ;
@@ -33,9 +31,7 @@
     gap: 20px;
 }
 .stats{
-   position: absolute;
-    left: 240px;
-    top: 60px;
+
 }
 .card-img{
     border-radius: 50%;
@@ -46,17 +42,33 @@
 .flexbox{
     display: flex;
     gap: 40px;
-    position: absolute;
-    top: 300px;
-    left:1px;   
+     
 }
 .read{
     display: flex;
     gap: 100px;
-    position: absolute;
-    top: 130px;
-    right: 5px; 
+    margin-top: 16px;  
 }
 .intro{
-
+display:flex;
+align-items: center;
+gap: 40px;
+margin-top: 60px;
+border-top: 1px solid gray;
+justify-content: center;
 }
+ .posts{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+ .tagged{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+ .reels{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
