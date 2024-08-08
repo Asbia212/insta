@@ -13,11 +13,10 @@
 .logo{
     color: black;
 }
-.card{
+.abc{
     width: 700px;
     margin: 80px auto;
     display: flex;
-    justify-content: center;
 }
 .img{
     height: 250px;
@@ -39,12 +38,15 @@
 .flexbox{
     display: flex;
     gap: 40px;
+    justify-content: center;
      
 }
 .read{
     display: flex;
     gap: 100px;
     margin-top: 16px;  
+    justify-content: center;
+    font-size: large;
 }
 .intro{
 display:flex;
@@ -71,19 +73,24 @@ justify-content: center;
  }
  .line1{
     display:flex;
+    justify-content: center;
  }
  .line2{
     display: flex;
     align-items: center;
+    justify-content: center;
  }
  .line3{
     display: flex;
+    justify-content: center;
  }
  .line4{
     display: flex;
+    justify-content: center;
  }
 .sqaure{
-    width:200px;
+    height:250px;
+    width: 180px;
     border: 1px solid gray;
     margin-top: 60px;
     border-radius: 16px;
@@ -101,10 +108,11 @@ justify-content: center;
 .bottom{
     display: flex;
     gap:20px;
+    justify-content: center;
 }
 .pixel{
     border-radius: 50%;
-    height:30%;
+    height:40%;
 }
 .cross{
     position:absolute;
@@ -112,3 +120,76 @@ justify-content: center;
     right: 20px;
     height: 30px;
 }
+.sqaure1{
+    height:250px;
+    width: 180px;
+    border: 1px solid gray;
+    margin-top: 60px;
+    border-radius: 16px;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+}
+.sqaure2{
+    height:250px;
+    width: 180px;
+    border: 1px solid gray;
+    margin-top: 60px;
+    border-radius: 16px;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+}
+.sqaure3{
+    height:250px;
+    width: 180px;
+    border: 1px solid gray;
+    margin-top: 60px;
+    border-radius: 16px;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+}
+.sqaure4{
+    height:250px;
+    width: 180px;
+    border: 1px solid gray;
+    margin-top: 60px;
+    border-radius: 16px;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+}
+.dev1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+}
+.dev2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+}
+.dev3{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+}
+.dev4{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
